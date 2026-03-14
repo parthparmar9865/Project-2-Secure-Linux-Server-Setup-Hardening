@@ -48,6 +48,10 @@ Minimum 2GB RAM
 
 Internet connection
 
+
+
+
+
 Step 2: Create a New User
 sudo adduser secureuser
 sudo usermod -aG sudo secureuser
