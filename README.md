@@ -47,6 +47,7 @@ VirtualBox / VMware
 Minimum 2GB RAM
 
 Internet connection
+
 ---
 
 **Step 2: Create a New User**
