@@ -32,7 +32,24 @@ The project includes SSH hardening, firewall configuration, intrusion prevention
 | Nikto | Web vulnerability scanning |
 
 ---
+# Project Roadmap
 
+## Week 1 — Server Deployment & Basic Security
+
+### Tasks
+- Deploy Linux server locally or on cloud (AWS / DigitalOcean)
+- Configure SSH security
+- Disable root login
+- Implement key-based authentication
+- Configure firewall rules using UFW
+
+### Key Commands
+
+Update system
+
+```bash
+sudo apt update
+sudo apt upgrade -y
 ## System Setup
 
 ### Step 1: Update Kali Linux
