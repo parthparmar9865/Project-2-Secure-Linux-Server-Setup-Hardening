@@ -1,38 +1,47 @@
 # Project-2-Secure-Linux-Server-Setup-Hardening
-Secure Kali Linux Server Setup & Hardening
-Project Overview
+# Secure Kali Linux Server Setup & Hardening
 
-This project demonstrates how to deploy and secure a Kali Linux server using industry-standard hardening techniques. The goal is to protect the system from common attack vectors such as brute-force attacks, unauthorized access, insecure services, and misconfigurations.
+## Project Overview
+This project demonstrates how to deploy and secure a Kali Linux system using standard cybersecurity hardening techniques. The objective of this project is to protect the server from common threats such as unauthorized access, brute-force attacks, insecure configurations, and network vulnerabilities.
 
-The project includes configuring secure SSH access, enabling firewall protection, installing intrusion prevention tools, and performing security auditing.
+The project includes SSH hardening, firewall configuration, intrusion prevention using Fail2Ban, security auditing with Lynis, and vulnerability scanning using Nmap and Nikto.
 
-Objectives
+---
 
-Deploy Kali Linux as a server
+## Objectives
 
-Secure SSH configuration
+- Deploy Kali Linux as a secure server environment
+- Configure secure SSH access
+- Implement firewall protection
+- Prevent brute-force login attacks
+- Perform vulnerability scanning
+- Monitor system logs
 
-Implement firewall protection
+---
 
-Prevent brute-force attacks
+## Tools & Technologies Used
 
-Perform vulnerability scanning
+| Tool | Purpose |
+|-----|------|
+| Kali Linux | Target system |
+| OpenSSH | Secure remote access |
+| UFW Firewall | Network security |
+| Fail2Ban | Intrusion prevention |
+| Lynis | Security auditing |
+| Nmap | Network scanning |
+| Nikto | Web vulnerability scanning |
 
-Monitor security logs
+---
 
-Tools & Technologies Used
-Tool	Purpose
-Kali Linux	Target secure server
-OpenSSH	Secure remote access
-UFW Firewall	Network traffic filtering
-Fail2Ban	Prevent brute force attacks
-Lynis	Security auditing
-Nmap	Network scanning
-Nikto	Web vulnerability scanning
-System Requirements
+## System Setup
 
-Kali Linux installed
+### Step 1: Update Kali Linux
 
+Update system packages to ensure all security patches are installed.
+
+```bash
+sudo apt update
+sudo apt upgrade -y
 VirtualBox / VMware
 
 Minimum 2GB RAM
