@@ -47,3 +47,13 @@ VirtualBox / VMware
 Minimum 2GB RAM
 
 Internet connection
+
+
+### Step 2: Create a New User
+sudo adduser secureuser
+sudo usermod -aG sudo secureuser
+
+This prevents direct use of the root account.
+
+Step 3: Install SSH Server
+sudo apt install openssh-server -y
