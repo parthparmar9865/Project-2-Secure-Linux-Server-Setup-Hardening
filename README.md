@@ -50,9 +50,15 @@ Internet connection
 
 ---
 
-Step 2: Install Basic Security Tools
+### Step 2: Install Basic Security Tools
 
 Install required packages:
 
 sudo apt install ufw fail2ban auditd lynis net-tools -y
 sudo apt install openssh-server -y
+
+**Step 3: Configure SSH Security**
+
+Edit SSH configuration file
+
+sudo nano /etc/ssh/sshd_config
