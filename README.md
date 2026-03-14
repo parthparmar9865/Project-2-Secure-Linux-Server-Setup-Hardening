@@ -50,11 +50,9 @@ Internet connection
 
 ---
 
-**Step 2: Create a New User**
-sudo adduser secureuser
-sudo usermod -aG sudo secureuser
+Step 2: Install Basic Security Tools
 
-This prevents direct use of the root account.
+Install required packages:
 
-**Step 3: Install SSH Server**
+sudo apt install ufw fail2ban auditd lynis net-tools -y
 sudo apt install openssh-server -y
