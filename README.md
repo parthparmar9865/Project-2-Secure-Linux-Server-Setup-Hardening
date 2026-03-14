@@ -39,7 +39,7 @@ The project includes SSH hardening, firewall configuration, intrusion prevention
 
 Update system packages to ensure all security patches are installed.
 
-```bash
+
 sudo apt update
 sudo apt upgrade -y
 VirtualBox / VMware
@@ -47,16 +47,12 @@ VirtualBox / VMware
 Minimum 2GB RAM
 
 Internet connection
-```bash
 
-
-
-
-Step 2: Create a New User
+**Step 2: Create a New User**
 sudo adduser secureuser
 sudo usermod -aG sudo secureuser
 
 This prevents direct use of the root account.
 
-Step 3: Install SSH Server
+**Step 3: Install SSH Server**
 sudo apt install openssh-server -y
