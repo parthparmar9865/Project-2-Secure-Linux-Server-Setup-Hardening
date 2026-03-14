@@ -47,7 +47,7 @@ VirtualBox / VMware
 Minimum 2GB RAM
 
 Internet connection
-
+```bash
 
 
 
